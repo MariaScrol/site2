@@ -1,0 +1,28 @@
+body{
+    background-color: gainsboro;
+}
+p{
+    font-size: 50px;
+    color: crimson;
+    background-image:linear-gradient(skyblue,white) ;
+}
+.p1{
+    font-size: 50px;
+    color: red;
+    background-image:linear-gradient(coral,white) ;
+    font-family: 'Alkatra', cursive;
+    animation-duration: 5s;
+    animation-name: slidein;
+    
+   }
+   @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

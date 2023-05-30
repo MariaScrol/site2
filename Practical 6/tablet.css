@@ -1,0 +1,98 @@
+body{
+    background-color: aquamarine;
+}
+
+p{
+    font-size: 50px;
+    border: solid 30px;
+    width: 50%;
+    text-align: center;
+    border-image: linear-gradient(blue,pink)30;
+    color: blue;
+    background-color: whitesmoke;
+    margin: auto;
+}
+table{
+    border: solid 5px;
+    border-image:url(https://media.tenor.com/UZswyok8T-oAAAAM/pride-rainbow.gif)30;
+    width: 50%;
+    margin-top: 50px;
+}
+Th,td{
+    border: solid 1px black;
+    width: 25%;
+    height: 1cm;
+    font-size: 24px;
+    font-family: 'Alkatra', cursive;
+}
+tr:hover{
+    background-color: gray;
+}
+td:hover{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+  color: aliceblue;
+  background-image: url(https://media4.giphy.com/media/1zhM9J83UHXSixCLrB/giphy.gif);
+}
+
+tr:nth-child(odd){
+    background-color: wheat;
+}
+
+tr:nth-child(even){
+    background-color: snow;
+}
+
+caption{
+    font-size: 50px;
+    font-family: 'Alkatra', cursive;
+}
+
+
+.tb1{
+    border: solid 3px blueviolet;
+    width: 50%;
+    margin-top: 50px;
+    
+}
+.tb1 td,th{
+    border: solid 1px red;
+    width: 25%;
+    height: 1cm;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.tb1 tr:hover{
+    background-color: yellow;
+}
+.tb1 td:hover{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+  color: aliceblue;
+  background-image:url(https://i.gifer.com/origin/51/5158ec7785173da6e0eec8bb1d61cb95.gif);
+}
+.tb1 tr:nth-child(odd){
+    background-color: purple;
+}
+.tb1 tr:nth-child(even){
+    background-color: whitesmoke;
+}
+.tb1 caption{
+    font-size: 40px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+
+
+
+
+
+
+
+
+

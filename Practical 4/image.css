@@ -1,0 +1,81 @@
+body{
+    background-color: sandybrown;
+    background-image: url(https://i.gifer.com/XOsX.gif);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+h1{
+    font-size: 1in;
+    color: darkorchid;
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/24/18/05/background-3104413__340.jpg);
+    background-size: cover;
+}
+
+p{
+    color: palevioletred;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url(image/honfh.gif);
+}
+
+h2{
+    color: palevioletred;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    background-image: url(image/breakdance.jpg),url(image/bluelights.gif);
+    background-position: 50% 50%;
+}
+
+
+
+.bgimage{
+    width: 500px;
+    height: 300px;
+    background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+    background-size: cover;
+    border-radius: 20% 40%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: ridge 10px black;
+}
+.bgimage1{
+    width: 500px;
+    height: 300px;
+    background-image: url(https://extremeguide.pro/wp-content/uploads/2020/05/khan-tengri-1.jpg);
+    background-size: cover;
+    border-radius: 70% 80%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: ridge 10px skyblue;
+}
+
+.img1{
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 20px -20px 50px black;
+    border: solid 4px springgreen;
+}
+
+.bggif{
+    width: 450px;
+    height: 450px;
+    background-image:url(image/Fox1.gif),linear-gradient(rgb(255,127,80 ),rgb(0,0,0));
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.bggif1{
+    width: 450px;
+    height: 450px;
+    background-image:url(image/Fox.gif),url(image/Grass.gif),linear-gradient(rgb(154,205,50),rgb(107,142,35));
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+

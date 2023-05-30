@@ -1,0 +1,71 @@
+body{
+    background-color: powderblue;
+}
+
+p{
+    font-size: 50px;
+    color: whitesmoke;
+    background-image:linear-gradient(darkblue,violet,skyblue,blueviolet);
+    border-image-outset: 30px;
+    border: 50px;
+    background-size: cover;
+    border: 1rem solid;
+    border-color: dodgerblue;
+}
+
+@counter-style lower-alpha{
+    system: fixed;
+    symbols: 🥭 🍒 🌰 🥥 🍙 🍡 🦀 🍨 🍯 🥧  ;
+    suffix: " ";
+  }
+
+
+ul {
+    font-size: 30px;
+    color: black;
+    background-image: url(https://img.freepik.com/premium-photo/dark-black-brick-wall-has-rough-surface-as-background-image_99266-242.jpg);
+    padding: 50px;
+   }
+
+ol {
+    font-size: 30px;
+    color: black;
+    background-image: url(https://img.freepik.com/premium-photo/dark-black-brick-wall-has-rough-surface-as-background-image_99266-242.jpg);
+    padding: 50px;
+  }
+
+dl{
+    font-size: 30px;
+    color: gray;
+    margin-left: 50px;
+    font-family:  'Roboto Mono', monospace;;
+}
+ol li{
+    background: white;
+    color: green;
+    margin: 5px;
+
+}
+
+ul li{
+    background: white;
+  color: darkblue;
+  margin: 5px;
+}
+ul li::marker{
+    color: lawngreen;
+    font-size: 30px;
+}
+
+ol li::marker{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+
+
+
+
+
+ 
+  
